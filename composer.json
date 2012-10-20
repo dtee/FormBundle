@@ -1,0 +1,26 @@
+{
+    "name": "dtc/form-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 Forms via Ajax",
+    "keywords": ["ajax", "forms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Tee",
+            "homepage": "http://github.com/dtee"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.1.*,<2.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Dtc\\FormBundle": ""
+        }
+    },
+
+    "target-dir": "Dtc/FormBundle"
+}
